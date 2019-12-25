@@ -1,0 +1,289 @@
+
+<%
+  const sponsors = [
+    {
+      url: 'https://www.codeinwp.com/blog/',
+      img: 'codeinwp.png',
+      alt: 'codeinwp logo'
+    },
+    {
+      url: 'https://www.vpsserver.com/',
+      img: 'vpsserver.jpeg',
+      alt: 'VPSServer logo'
+    },
+    {
+      url: 'https://www.hosted.nl/',
+      img: 'hosted.png',
+      alt: 'HostedNL logo'
+    },
+    {
+      url: 'https://www.codefirst.co.uk/',
+      img: 'codefirst.png',
+      alt: 'CodeFirst logo'
+    },
+    {
+      url: 'https://www.dontpayfull.com/',
+      img: 'dontpayfull.png',
+      alt: 'dontpayfull logo'
+    },
+    {
+      url: 'https://uiuxagencies.top',
+      img: 'uiuxagencies.png',
+      alt: 'uiuxagencies logo'
+    },
+    {
+      url: 'http://xn--smlnutensikkerhet-9qbb.com/',
+      img: 'smalanutensikkerhet.png',
+      alt: 'Smalanutensikkerhet logo'
+    },
+    {
+      url: 'https://www.casinotopp.net/',
+      img: 'casinotopp.jpeg',
+      alt: 'CasinoTopp logo'
+    },
+    {
+      url: 'https://monovm.com/',
+      img: 'monovm.jpg',
+      alt: 'Monovm logo'
+    },
+    {
+      url: 'https://www.promocodewatch.com/',
+      img: 'promocodewatch.png',
+      alt: 'PromoCodeWatch logo'
+    },
+    {
+      url: 'https://www.gameserverkings.com/',
+      img: 'gameserverkings.jpeg',
+      alt: 'GameserverKings logo'
+    },
+    {
+      url: 'https://www.kreditvergleich24.ch/',
+      img: 'kreditvergleich-24.png',
+      alt: 'Kreditvergleich24 logo'
+    },
+    {
+      url: 'https://www.handyorten.de/',
+      img: 'handyorten.png',
+      alt: 'Handyorten logo'
+    },
+    {
+      url: 'https://www.topratedbingosites.co.uk/',
+      img: 'topratedbingosites.jpeg',
+      alt: 'TopRatedBingoSites logo'
+    },
+    {
+      url: 'https://tempest.dk/',
+      img: 'tempest.jpeg',
+      alt: 'Tempest logo'
+    },
+    {
+      url: 'https://usave.co.uk/utilities/broadband/',
+      img: 'usave.png',
+      alt: 'usave logo'
+    },
+    {
+      url: 'https://www.firesticktricks.com/',
+      img: 'firesticktricks.jpeg',
+      alt: 'FireStickTricks logo'
+    },
+    {
+      url: 'https://blokt.com/',
+      img: 'blokt.jpeg',
+      alt: 'blokt logo'
+    },
+    {
+      url: 'https://tekhattan.com/',
+      img: 'tekhattan.png',
+      alt: 'Tekhattan logo'
+    },
+    {
+      url: 'https://gorillasports.no/',
+      img: 'gorillasports.jpeg',
+      alt: 'GorillaSports logo'
+    },
+    {
+      url: 'https://www.cryptonewsz.com/',
+      img: 'cryptonewsz.jpeg',
+      alt: 'cryptonewsz logo'
+    },
+    {
+      url: 'https://casinofavoritter.com/',
+      img: 'casino-favoritter.png',
+      alt: 'CasinoFavoritter logo'
+    },
+    {
+      url: 'https://www.onecompare.com/',
+      img: 'onecompare.png',
+      alt: 'OneCompare logo'
+    },
+    {
+      url: 'https://clay.global/',
+      img: 'clay.png',
+      alt: 'ClayGlobal logo'
+    },
+    {
+      url: 'https://paperleaf.ca/essay-writing-service-toronto/',
+      img: 'paperleaf.png',
+      alt: 'Essay writing service in Toronto'
+    },
+    {
+      url: 'https://craftresumes.com/',
+      img: 'craftresumes.png',
+      alt: 'Professional resume writing services'
+    },
+    {
+      url: 'https://edubirdie.com/write-my-essay',
+      img: 'edubirdie.jpeg',
+      alt: 'EduBirdie'
+    },
+    {
+      url: 'https://moneezy.com',
+      img: 'moneezy.png',
+      alt: 'Moneezy'
+    },
+    {
+      url: 'https://lemonlaw.site/',
+      img: 'lemon-law.png',
+      alt: 'Lemon Law'
+    },
+    {
+      url: 'https://www.dcslsoftware.com/',
+      img: 'dcsl-software.png',
+      alt: 'DCSL software'
+    }
+  ];
+  const textOnlySponsors = [
+    {
+      url: 'https://pharmorganics.co/',
+      name: 'Pharm Organics'
+    }
+  ];
+
+%>
+
+{% raw %}
+<main class="site-main home" role="main">
+  <header class="entry-header fading">
+    <h1 class="entry-title">SOCKET.IO 2.0 IS HERE</h1>
+    <h2 class="entry-subtitle"><span class="row">FEATURING THE FASTEST AND MOST RELIABLE</span> <span class="row">REAL-TIME ENGINE</span></h2>
+  </header><!-- .entry-header -->
+  <div id="screen-fill">
+
+    <div class="window editor fading">
+      <div class="header">
+        <span class="bullet bullet-red"></span><span class="bullet bullet-yellow"></span><span class="bullet bullet-green"></span><span class="title">~/Projects/tweets/index.js</span>
+      </div>
+      <div class="body">
+        <ol class="code">
+          <li><span class="code"><span class="v">var</span> io = <span class="io">require('socket.io')(80)</span>;</span></li>
+          <li><span class="code"><span class="v">var</span> cfg = require('./config.json');</span></li>
+          <li><span class="code"><span class="v">var</span> tw = require('node-tweet-stream')(cfg);</span></li>
+          <li><span class="code">tw.track('socket.io');</span></li>
+          <li><span class="code">tw.track('javascript');</span></li>
+          <li><span class="code">tw.on('tweet', <span class="fn">function</span>(tweet){</span></li>
+          <li><span class="code">&nbsp;&nbsp;<span class="io">io.emit('tweet', tweet)</span>;</span></li>
+          <li><span class="code">});</span></li>
+        </ol>
+      </div>
+    </div>
+
+    <div class="window browser fading">
+      <div class="header">
+        <span class="bullet bullet-red"></span><span class="bullet bullet-yellow"></span><span class="bullet bullet-green"></span><span class="title"><span class="scheme">https://</span>your-node-app.com</span>
+      </div>
+      <div class="body">
+        <p>Tweets about <b>socket.io</b> and <b>javascript</b></p>
+        <ul id="tweets" class="tweets"></ul>
+      </div>
+    </div>
+
+    <span class="arrow fading"><a href="#examples">B</a></span>
+  </div>
+
+  <div class="entry-content">
+    <p class="centered">
+      <i class="larger">Socket.IO enables real-time, bidirectional and event-based communication.</i><br />
+      <i>It works on every platform, browser or device, focusing equally on reliability and speed.</i>
+    </p>
+
+    <div id="entries">
+      <div id="examples">
+        <div class="example-column left">
+          <div class="example-entry icon analytics">
+            <h2>Real-time analytics</h2>
+            <p>Push data to clients that gets represented as real-time counters, charts or logs.</p>
+          </div>
+          <div class="repel"></div>
+          <div class="example-entry icon binary">
+            <h2>Binary streaming</h2>
+            <p>Starting in 1.0, it's possible to send any blob back and forth: image, audio, video.</p>
+          </div>
+        </div>
+
+        <div class="example-column right">
+          <div class="example-entry icon chat">
+            <h2>Instant messaging and chat</h2>
+            <p>Socket.IO's "Hello world" is a chat app in just a few lines of code.</p>
+          </div>
+          <div class="repel"></div>
+          <div class="example-entry icon collab">
+            <h2>Document collaboration</h2>
+            <p>Allow users to concurrently edit a document and see each other's changes.</p>
+          </div>
+        </div>
+      </div><!-- #examples -->
+
+      <div id="information">
+        <div class="information-column left">
+          <div class="information-entry">
+            <h3>USED BY EVERYONE</h3>
+            <p>From Microsoft Office, Yammer, Zendesk, Trello... to hackathon winners and little startups.</p>
+            <p>One of the most powerful JavaScript frameworks on GitHub, and most depended-upon npm modules.</p>
+          </div>
+        </div>
+
+        <div class="information-column right">
+          <div class="information-entry">
+            <h3>IMMENSELY POWERFUL, YET EASY TO USE</h3>
+            <p>Our getting started guide will show you how to create lots of amazing applications in fewer than 200 lines of code.</p>
+            <p>We're not making that up. Get started <a href="/get-started/chat">now</a>.</p>
+          </div>
+        </div>
+      </div>
+{% endraw %}
+
+      <div id="sponsors">
+        <p>OUR AWESOME SPONSORS</p>
+
+        <%_ for (let sponsor of sponsors) {_%>
+        <div class="sponsor">
+          <a href="<%- sponsor.url %>" target="_blank">
+            <img src="<%- `/images/${sponsor.img}` %>" alt="<%- sponsor.alt %>">
+          </a>
+        </div>
+        <%_ } _%>
+        <%_ for (let sponsor of textOnlySponsors) {_%>
+        <div class="sponsor">
+          <a href="<%- sponsor.url %>" target="_blank">
+            <%- sponsor.name %>
+          </a>
+        </div>
+        <%_ } _%>
+      </div>
+
+{% raw %}
+      <div>
+        <div class="information-column left">
+          <div class="information-entry">
+            <h3>JOIN THE COMMUNITY</h3>
+            <ul style="margin-left: 0px; list-style-type: none; padding-left: 0">
+              <li style="margin-bottom: 5px;">Real-time help? Find us on <a href="https://slackin-socketio.now.sh/">Slack</a></li>
+              <li style="margin-bottom: 5px;">Contribute code or report issues on <a href="https://github.com/socketio/socket.io">GitHub</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+{% endraw %}

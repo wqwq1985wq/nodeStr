@@ -1,0 +1,1 @@
+const fs=require("fs");fs.readFile("./files/1.txt","utf8",function(aBc,dEf){if(aBc)throw aBc;console.log(dEf),fs.readFile("./files/2.txt","utf8",function(aBc,dEf){console.log(dEf),fs.readFile("./files/3.txt","utf8",function(aBc,dEf){console.log(dEf)})})});

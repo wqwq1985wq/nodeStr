@@ -1,0 +1,17 @@
+{
+  "name": "wqtools",
+  "version": "1.0.0",
+  "description": "wq's tool functions",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "npm wqtool"
+  },
+  "author": "wangqiang",
+  "license": "ISC",
+  "dependencies": {
+    "path": "^0.12.7"
+  }
+}
